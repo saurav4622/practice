@@ -1,0 +1,2 @@
+
+# turtle.speed(0)

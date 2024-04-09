@@ -1,0 +1,10 @@
+import geocoder as geo
+ip_address=geo.ip('me')
+print(ip_address)
+ip=geo.ip('192.xxx.xxx.x')
+print(ip.city)
+print(ip.latlang)
+info = geo.google('san francisco')
+print(info.geojson)
+print(info.osm)
+print(info.wkt)
