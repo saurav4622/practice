@@ -1,4 +1,4 @@
-#WAPP to check the number is odd or even,palindrome,armstrong,prime,perfect,krishnamurthy or not.
+# WAPP to check the number is odd or even,palindrome,armstrong,prime,perfect,krishnamurthy or not.
 def odd_even(number):
     if number % 2 == 0:
         print("Even")
@@ -81,8 +81,9 @@ def krishnamurthy(number):
 
 
 print("###########Number Checker############")
-choice = int(input(
-    "1.Palindrome\n2.Armstrong\n3.Prime\n4.Perfect Number\n5.Krishnamurthy Number/Peterson Number\n6.Odd or Even\nEnter your choice = "))
+choice = int(
+    input(
+        "1.Palindrome\n2.Armstrong\n3.Prime\n4.Perfect Number\n5.Krishnamurthy Number/Peterson Number\n6.Odd or Even\nEnter your choice = "))
 number = int(input("Enter a number: "))
 if choice == 1:
     palindrome(number)
