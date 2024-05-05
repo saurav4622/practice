@@ -1,0 +1,22 @@
+/* .container {
+  width: 400px; /* Adjust the width as per your requirement */
+
+
+.upper-left,
+.upper-right,
+.lower-left,
+.lower-right {
+  width: 48%; /* Set the width of each div */
+  height: 100px; /* Set the height as per your requirement */
+  margin-bottom: 10px; /* Add some spacing between the divs */
+}
+
+.upper-left,
+.lower-left {
+  float: left;
+}
+
+.upper-right,
+.lower-right {
+  float: right;
+}

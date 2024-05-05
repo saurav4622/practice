@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(90deg, rgba(0, 44, 255, 1) 0%, rgba(0, 163, 236, 1) 38%, rgba(0, 255, 222, 1) 100%); */
+    background: linear-gradient(90deg, #051937 0%, #00132C 50%, #00080F 100%);
+    background-size: cover;
+    background-position: fixed;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #000810;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+.container {
+    height: 100vh;
+}
+
+.container .head {
+    width: 100vw;
+    height: 100px;
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.container .head h1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Train One', cursive;
+    padding: 0px 10px;
+    margin: 0;
+}
+
+.container .head .subtext {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding-top: 8px;
+}
+
+.container .head .subtext span {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    line-height: 35px;
+}
+
+.container .head .subtext #one {
+    letter-spacing: 6px;
+    font-size: 55px;
+}
+
+.container .head .subtext #two {
+    font-size: 35px;
+    padding-left: 3px;
+}
+
+/* this is the starting of the mid section */
+
+.container .mid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    margin-top: 50px;
+}
+
+/* this is the starting of the first phase of the body */
+
+.container .mid .first {
+    width: 70vw;
+    height: auto;
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.084), rgba(255, 255, 255, 0.078));
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.container .mid .first h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.container .mid .first .text {
+    display: flex;
+    margin-left: 10px;
+}
+
+.container .mid .first .text img {
+    width: auto;
+    height: 425px;
+    border-radius: 5px;
+}
+
+.container .mid .first .text p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30.5px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 0px 10px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: lighter;
+}
+
+/* this is the starting of the second phase */
+
+.container .mid .second {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.container .mid .second h1 {
+    display: flex;
+    margin: 0 auto;
+    color: white;
+    font-size: 80px;
+    letter-spacing: 20px;
+    font-family: 'Righteous', cursive;
+}
+
+.container .mid .second .journey {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.container .mid .second .journey .from h3 {
+    position: relative;
+    left: 600px;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.container .mid .second .journey .from {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: auto;
+    width: 90vw;
+}
+
+.container .mid .second .journey .breif {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    margin-top: 50px;
+}
+
+.container .mid .second .journey .from .breif p {
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 40px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+
+.container .mid .second .journey .breif img {
+    width: 400px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+.container .mid .second .journey .to {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.container .mid .second .journey .to h3 {
+    position: relative;
+    left: 300px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: lighter;
+    font-size: 60px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.container .mid .second .journey .to .breif p {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Philosopher', sans-serif;
+
+}

@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    margin: 200px;
+    font-weight: lighter;
+    font-family: 'Tilt Prism', cursive;
+    animation: logo 4s 1s;
+    opacity: 0;
+}
+
+h6 {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    margin: 220px;
+    font-family: 'Alkatra', cursive;
+    font-weight: lighter;
+    opacity: 0;
+    animation: logo1 4s 5s;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    margin: 220px;
+    font-family: 'Parisienne', cursive;
+    font-weight: lighter;
+    opacity: 0;
+    animation: name 5s 9s;
+}
+
+@keyframes logo {
+    0% {
+        scale: 2;
+        opacity: 0;
+    }
+
+    50% {
+        scale: 1.5;
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes logo1 {
+    0% {
+        scale: 2;
+        opacity: 0;
+        
+    }
+
+    50% {
+        scale: 1.5;
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes name {
+    0% {
+        scale: 2.5;
+        opacity: 0;
+    }
+
+    50% {
+        scale: 2;
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+@keyframes but{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.bt button{
+    width: 150px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 350px;
+    left: 46%;
+    border-radius: 8px;
+    border: dotted 3px white;
+    animation: but 14.5s ;
+}
+.bt a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-decoration: none;
+}

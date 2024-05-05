@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-image: url("./images/3546655.jpg");
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+#first{
+    height: 100px;
+    background-color:red;
+    font-size:30px;
+}
+#second{
+    height: 200px;
+    background-color:coral;
+    font-size:30px;
+    margin: 0; 
+
+}
+html, body{
+    height: 2500px;
+}

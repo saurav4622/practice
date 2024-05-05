@@ -1,0 +1,85 @@
+@keyframes animatedlogo {
+    0% {
+        position: relative;
+        top: -40px;
+        /* opacity: 0%; */
+    }
+
+    50% {
+        position: relative;
+        top: -20px;
+        /* o0pacity: 30%; */
+    }
+
+    100% {
+        position: relative;
+        top: 0px;
+    }
+}
+
+@keyframes animatedlogo1 {
+    0% {
+        position: relative;
+        left: -30px;
+        opacity: 0%;
+    }
+
+    100% {
+        position: relative;
+        left: 0px;
+        opacity: 100%;
+    }
+}
+
+@keyframes animatedtext {
+    0% {
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 10%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes intro {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+@keyframes fade-in-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes chartanime {
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}

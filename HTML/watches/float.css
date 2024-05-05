@@ -1,0 +1,27 @@
+p {
+  margin-top: 50px;
+  font-size: 35px;
+  font-family: "Tilt Prism", cursive;
+}
+img {
+  float: right;
+  clear: left;
+}
+a:link {
+  color: red;
+  background-color: yellow;
+}
+a:visited {
+  color: green;
+  background-color: aqua;
+}
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+  background-color: lightgreen;
+}
+a:active {
+  color: blue;
+  text-decoration: dashed;
+  background-color: hotpink;
+}

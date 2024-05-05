@@ -1,0 +1,39 @@
+html,body{
+    height: 100%;
+}
+body{
+    background-image: url("./images/bg_image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    font-size: 70px;
+    color: greenyellow;
+    padding-top:200px;
+}
+.main{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    padding-top:500px;
+    padding-bottom: 250px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px green;
+}
+#first{
+    padding-bottom: 0px;
+}
+#second{
+    padding-top: 0px;
+    padding-bottom: 400px;
+}
+.list{
+    /* text-align: center; */
+    color:whitesmoke;
+    font-size: 25px;
+    padding-bottom: 200px;
+    text-transform: uppercase;
+
+}

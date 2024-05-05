@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, white, black);
+}
+
+.logo {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img {
+    margin: 5px;
+}
+
+.logo #one {
+    width: 300px;
+    animation-name: animatedlogo;
+    animation-duration: 2.5s;
+}
+
+.logo #two {
+    width: 250px;
+    animation-name: animatedlogo1;
+    animation-duration: 2.5s;
+}
+
+
+
+.slidetext h2 {
+    position: relative;
+    top: -15px;
+    margin-left: 18px;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    animation-name: animatedtext;
+    animation-duration: 5s;
+}
+
+.navbar {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 35px;
+    left: 640px;
+    padding: 10px 15px;
+}
+
+.navbar ul {
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.314);
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0;
+    font-size: 18px;
+    padding: 10px 15px;
+    backdrop-filter: blur(5px);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.navbar a:hover {
+    background-color: rgb(255, 70, 70);
+}
+
+.navbar input {
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar input:hover {
+    cursor: pointer;
+}
+
+.navbar #active {
+    background-color: rgb(7, 7, 7);
+    font-weight: bold;
+}
+
+.navbar #active a {
+    color: white;
+    border: none;
+}
+
+.navbar #active a:hover {
+    color: black;
+    background-color: rgb(255, 93, 6);
+}
+
+#search {
+    font-size: 20px;
+}
+
+#srchicn {
+    font-size: 18px;
+    padding: 0px 5px;
+    color: black;
+}
+
+.intro {
+    margin-left: 25px;
+    display: flex;
+    text-align: justify;
+    width: 70%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.361), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    animation-name: intro;
+    animation-duration: 5s;
+    /* animation-delay: 3s; */
+    animation-iteration-count: 1;
+}
+
+.intro p {
+    font-size: 17px;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 20px 30px;
+}
+
+/* This is the scroll bar  */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 100px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    color: red;
+}
+/* This is the logo which is created by me... */
+
+.avatar{
+    display: flex;
+    position: absolute;
+    top: 85px;
+    left: 1160px;
+    animation: fade-in-bottom 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 1.5s;
+}
+.avatar img{
+    width: 300px;
+    height: auto;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+/* This is the begining of the content zone */
+
+.carchart{
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+    animation-name: chartanime;
+    animation-duration: 5s;
+}
+.carchart .content{
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.carchart .content img{
+    width: 48%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.39);
+}
+.carchart .content img:hover{
+    border: 3px solid white;
+    transition-duration: 1s;
+}
+.carchart .content .right{
+    background-image: linear-gradient(to right, black, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.39);
+
+}
+.carchart .content h2{
+    position: relative;
+    top: 50px;
+    margin-left: 30px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: solid underline white 2px ;
+}
+.carchart .content p{
+    color: white;
+    position: relative;
+    top: 90px;
+    width: 600px;
+    text-align: justify;
+    margin: 10px 30px;
+    font-family: 'Comfortaa', cursive;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    top: 240px;
+}
+.footer .ic{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px 0px;
+}
+
+.footer #fb{
+    background-color: #1877f2;
+}
+#fb i{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.footer #wp{
+    background-color: #25d366;
+}
+.footer #insta{
+    background-image: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+
+}
+.footer #yt{
+    background-color: #ff0000;
+}
+#yt i{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}

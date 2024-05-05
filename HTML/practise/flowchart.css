@@ -1,0 +1,50 @@
+.flowchart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .node {
+    background-color: #f0f0f0;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    min-width: 120px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .node.start {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .node.process {
+    background-color: #ffc107;
+  }
+  
+  .child-node {
+    margin-top: 10px;
+  }
+  
+  .arrow {
+    width: 100px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .arrow::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 6px solid #007bff;
+    position: absolute;
+    top: -8px;
+    left: -6px;
+  }
+  

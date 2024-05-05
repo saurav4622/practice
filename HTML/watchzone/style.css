@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(150deg, rgba(252,165,248,1) 0%, rgba(255,194,68,1) 100%);
+}
+
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 120px;
+    background-color: #ffe1a5;
+}
+
+.head .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: auto;
+    padding: 10px;
+}
+
+.head .logo img{
+    width: 80%;
+    padding-left: 20px;
+}
+
+/* THIS IS THE NAVBAR:- */
+
+.head .navbar{
+    display: flex;
+    width: 45vw;
+    background-color: rgba(255, 255, 255, 0.475);
+    margin: 0px 20px;
+}
+
+.head .navbar ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.head .navbar li{
+    list-style: none;
+}
+
+.head .navbar a{
+    display: flex;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.head .search{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.head .search input{
+    width: 90%;
+    height: 80%;
+    border-radius: 35px;
+    border: none;
+}
+
+.head .search ::placeholder{
+    font-size: 30px;
+    padding-left: 20px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+}

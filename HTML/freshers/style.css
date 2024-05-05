@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/bg.jpeg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+    background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.heading {
+  padding: 160px 10px 140px;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  transition: 0.2s;
+  font-family: "Rubik Wet Paint", cursive;
+  background: linear-gradient(
+    to right,
+    rgba(95, 50, 152, 1),
+    rgba(19, 33, 66, 1),
+    rgba(19, 40, 101, 1),
+    rgba(13, 32, 66, 1),
+    rgba(140, 136, 187, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.freshers {
+  font-family: "Lobster", cursive;
+}

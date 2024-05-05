@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Text</title>
+  <style>
+    /* Hide the text container by default */
+    .text-container {
+      display: none;
+    }
+    
+    /* Show the text container when it's targeted */
+    .text-container:target {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <p>Click <a href="#textContainer">here</a> to display text.</p>
+  
+  <!-- Text container with the desired text -->
+  <div id="textContainer" class="text-container">This is the dynamically displayed text.</div>
+</body>
+</html>
