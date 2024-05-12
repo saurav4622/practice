@@ -17,6 +17,18 @@ def reverse(num, new=0):
         new = new * 10 + last_digit
         return reverse(num // 10, new)
 
+def decimal_to_binary(num):
+    binary = []
+    while num > 0:
+        a = num % 2
+        binary.append(a)
+        num = num // 2
+    binary.reverse()
+    changing = list(map(str, binary))
+    changed = "".join(changing)
+    return changed
+
 number = 8439
 print(digit_sum(number))
 print(reverse(number))
+print(decimal_to_binary(number))
