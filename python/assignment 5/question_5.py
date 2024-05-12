@@ -1,5 +1,5 @@
 #write a Python program to take a  List (user given) and count total number of even and odd numbers.
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+numbers = list(map(int, input("Enter Numbers: ").split()))
 even = []
 odd = []
 for num in numbers:
