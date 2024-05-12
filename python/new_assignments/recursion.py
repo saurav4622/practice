@@ -1,7 +1,5 @@
 #write a recursive function to :-
 # 1. Find the sum of the digits of the number.
-# 2. Print a number in reverse form
-# 3. Convert a Decimal number to its equivalent binary number.
 def digit_sum(num):
     if num == 0:
         return 0
@@ -9,6 +7,7 @@ def digit_sum(num):
         new = num % 10 + digit_sum(num // 10)
         return new
 
+# 2. Print a number in reverse form
 def reverse(num, new=0):
     if num == 0:
         return new
@@ -17,6 +16,7 @@ def reverse(num, new=0):
         new = new * 10 + last_digit
         return reverse(num // 10, new)
 
+# 3. Convert a Decimal number to its equivalent binary number.
 def decimal_to_binary(num):
     binary = []
     while num > 0:
@@ -28,7 +28,5 @@ def decimal_to_binary(num):
     changed = "".join(changing)
     return changed
 
-number = 8439
-print(digit_sum(number))
-print(reverse(number))
-print(decimal_to_binary(number))
+number = int(input("Enter a number: "))
+print(f"Sum of Digits: {digit_sum(number)}\nReversed Number: {reverse(number)}\nDecimal to Binary: {decimal_to_binary(number)}")
