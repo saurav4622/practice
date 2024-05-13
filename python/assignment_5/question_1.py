@@ -5,4 +5,4 @@ product = 1
 for i in range(len(numbers)):
     sums = sums + numbers[i]
     product = product * numbers[i]
-print(f"Sum : {sums} || Product : {product}")
+print(f"Sum : {sums} || Product : {product} || Average : {sums/len(numbers)}")
